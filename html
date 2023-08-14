@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container" id="">
+            <div class="city-data">
+                <div class="search">
+                    <input type="text" placeholder="Enter City Name" id="city-name">
+                    <button type="button" class="search-button">
+                        <div class="magnifier">
+                            <div class="magnifier-handle"></div><div class="magnifierCircle"></div></button>
+                        </div>
+                <div id="autocomplete-buttons">
+                    <div id="autocomplete-cities" class="autocomplete">
+                    </div>
+                </div>        
+                
+            </div> 
+        <div class="information">        
+            <div class="row-data">
+                <h4 class="city"></h4>
+                <h4 class="time"></h4>
+                <h4 class="date"></h4>
+            </div>
+            <h1></h1>
+            <div class="weather-data">
+                <div>
+                    <img id="" src="">
+                </div>
+                <div>
+                    <p class="feels-like"></p>
+                    <p class="min-max"></p>
+                    <p class="description"></p>
+                </div>
+                <p class="sun"></p>
+                <p class="humidity"></p>
+        </div>
+      </div>
+       
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
